@@ -21,8 +21,12 @@
                             "url": "https://github.com/dotnet/cli"
                         },
                         {
-                            "name": "Documents Index",
+                            "name": "Documentation",
                             "url": "https://github.com/dotnet/cli/tree/master/Documentation"
+                        },
+                        {
+                            "name": "Up for grabs",
+                            "url": "https://github.com/dotnet/cli/labels/good%20first%20issue"
                         }
                     ]
                 },
@@ -34,8 +38,25 @@
                             "url": "https://github.com/dotnet/corefx"
                         },
                         {
-                            "name": "Documents Index",
+                            "name": "Documentation",
                             "url": "https://github.com/dotnet/corefx/tree/master/Documentation"
+                        },
+                        {
+                            "name": "Coding guidelines",
+                            "children": [
+                              {
+                                  "name": "Framework design",
+                                  "url": "https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/framework-design-guidelines-digest.md"
+                              },
+                              {
+                                "name": "Managed code performance",
+                                "url": "https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/performance-guidelines.md"
+                              }
+                            ]
+                        },
+                        {
+                            "name": "Up for grabs",
+                            "url": "https://github.com/dotnet/corefx/labels/up-for-grabs"
                         }
                     ]
                 },
@@ -47,8 +68,12 @@
                             "url": "https://github.com/dotnet/roslyn"
                         },
                         {
-                            "name": "Documents Index",
+                            "name": "Documentation",
                             "url": "https://github.com/dotnet/roslyn/tree/master/docs"
+                        },
+                        {
+                            "name": "Up for grabs",
+                            "url": "https://github.com/dotnet/roslyn/labels/good%20first%20issue"
                         }
                     ]
                 },
@@ -60,8 +85,21 @@
                             "url": "https://github.com/dotnet/coreclr"
                         },
                         {
-                            "name": "Documents Index",
+                            "name": "Documentation",
                             "url": "https://github.com/dotnet/coreclr/tree/master/Documentation"
+                        },
+                        {
+                            "name": "Coding guidelines",
+                            "children": [
+                              {
+                                  "name": "Garbage collector",
+                                  "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/garbage-collector-guidelines.md"
+                              },
+                              {
+                                "name": "Performance",
+                                "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/performance-guidelines.md"
+                              }
+                            ]
                         },
                         {
                             "name": "Book of the Runtime",
@@ -70,6 +108,14 @@
                         {
                             "name": "Relationship with CoreFX",
                             "url": "https://github.com/dotnet/coreclr#relationship-with-the-corefx-repository"
+                        },
+                        {
+                            "name": "Up for grabs",
+                            "url": "https://github.com/dotnet/coreclr/labels/up-for-grabs"
+                        },
+                        {
+                            "name": "Deep-dive blog posts",
+                            "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/deep-dive-blog-posts.md"
                         }
                     ]
                 },
