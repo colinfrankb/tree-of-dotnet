@@ -5,8 +5,77 @@
             "name": "Constituents",
             "children": [
                 {
-                    "name": "CoreCLR",
-                    "url": "https://github.com/dotnet/coreclr"
+                    "name": "SDK",
+                    "children": [
+                        {
+                            "name": "Source code",
+                            "url": "https://github.com/dotnet/sdk"
+                        }
+                    ]
+                },
+                {
+                    "name": "Command-line (CLI) tools",
+                    "children": [
+                        {
+                            "name": "Source code",
+                            "url": "https://github.com/dotnet/cli"
+                        },
+                        {
+                            "name": "Documents Index",
+                            "url": "https://github.com/dotnet/cli/tree/master/Documentation"
+                        }
+                    ]
+                },
+                {
+                    "name": "Standard class libraries (CoreFX)",
+                    "children": [
+                        {
+                            "name": "Source code",
+                            "url": "https://github.com/dotnet/corefx"
+                        },
+                        {
+                            "name": "Documents Index",
+                            "url": "https://github.com/dotnet/corefx/tree/master/Documentation"
+                        }
+                    ]
+                },
+                {
+                    "name": "Roslyn (C# Compiler)",
+                    "children": [
+                        {
+                            "name": "Source code",
+                            "url": "https://github.com/dotnet/roslyn"
+                        },
+                        {
+                            "name": "Documents Index",
+                            "url": "https://github.com/dotnet/roslyn/tree/master/docs"
+                        }
+                    ]
+                },
+                {
+                    "name": ".Net Core runtime (CoreCLR)",
+                    "children": [
+                        {
+                            "name": "Source code",
+                            "url": "https://github.com/dotnet/coreclr"
+                        },
+                        {
+                            "name": "Documents Index",
+                            "url": "https://github.com/dotnet/coreclr/tree/master/Documentation"
+                        },
+                        {
+                            "name": "Book of the Runtime",
+                            "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/botr/README.md"
+                        },
+                        {
+                            "name": "Relationship with the CoreFX Repository",
+                            "url": "https://github.com/dotnet/coreclr#relationship-with-the-corefx-repository"
+                        }
+                    ]
+                },
+                {
+                    "name": ".Net Docs",
+                    "url": "https://github.com/dotnet/docs"
                 }
             ]
         },
@@ -14,7 +83,29 @@
             "name": "Contributing",
             "children": [
                 {
-                    "name": "Docs"
+                    "name": "Up for grabs",
+                    "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/contributing.md#up-for-grabs"
+                },
+                {
+                    "name": "Contribution guide",
+                    "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/contributing.md"
+                },
+                {
+                    "name": "Contribution License Agreement",
+                    "url": "https://cla.opensource.microsoft.com/"
+                },
+                {
+                    "name": "Contribution workflow",
+                    "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/contributing-workflow.md"
+                }
+            ]
+        },
+        {
+            "name": "Community",
+            "children": [
+                {
+                    "name": ".Net Developer Community",
+                    "url": "https://dotnet.microsoft.com/platform/community"
                 }
             ]
         }
