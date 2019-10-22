@@ -93,17 +93,16 @@
                 {
                     "name": "Contribution License Agreement",
                     "url": "https://cla.opensource.microsoft.com/"
+                },
+                {
+                    "name": "Contributing to .Net for Dummies",
+                    "url": "http://rion.io/2017/04/28/contributing-to-net-for-dummies/"
                 }
             ]
         },
         {
-            "name": "Community",
-            "children": [
-                {
-                    "name": ".Net Developer Community",
-                    "url": "https://dotnet.microsoft.com/platform/community"
-                }
-            ]
+            "name": ".Net Core repos",
+            "url": "https://github.com/dotnet/core/blob/master/Documentation/core-repos.md"
         }
     ]
 }
