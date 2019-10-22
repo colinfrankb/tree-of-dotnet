@@ -68,7 +68,7 @@
                             "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/botr/README.md"
                         },
                         {
-                            "name": "Relationship with the CoreFX Repository",
+                            "name": "Relationship with CoreFX",
                             "url": "https://github.com/dotnet/coreclr#relationship-with-the-corefx-repository"
                         }
                     ]
@@ -93,10 +93,6 @@
                 {
                     "name": "Contribution License Agreement",
                     "url": "https://cla.opensource.microsoft.com/"
-                },
-                {
-                    "name": "Contribution workflow",
-                    "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/contributing-workflow.md"
                 }
             ]
         },
