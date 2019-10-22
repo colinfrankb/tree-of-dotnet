@@ -1,0 +1,22 @@
+{
+    "name": ".Net Core",
+    "children": [
+        {
+            "name": "Constituents",
+            "children": [
+                {
+                    "name": "CoreCLR",
+                    "url": "https://github.com/dotnet/coreclr"
+                }
+            ]
+        },
+        {
+            "name": "Contributing",
+            "children": [
+                {
+                    "name": "Docs"
+                }
+            ]
+        }
+    ]
+}
