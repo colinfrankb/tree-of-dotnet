@@ -39,7 +39,16 @@
                         },
                         {
                             "name": "Documentation",
-                            "url": "https://github.com/dotnet/corefx/tree/master/Documentation"
+                            "children": [
+                                {
+                                    "name": "Document index",
+                                    "url": "https://github.com/dotnet/corefx/tree/master/Documentation"
+                                },
+                                {
+                                    "name": "Developer guide",
+                                    "url": "https://github.com/dotnet/corefx/blob/master/Documentation/project-docs/developer-guide.md"
+                                }
+                            ]
                         },
                         {
                             "name": "Coding guidelines",
@@ -86,7 +95,16 @@
                         },
                         {
                             "name": "Documentation",
-                            "url": "https://github.com/dotnet/coreclr/tree/master/Documentation"
+                            "children": [
+                                {
+                                    "name": "Document index",
+                                    "url": "https://github.com/dotnet/coreclr/tree/master/Documentation"
+                                },
+                                {
+                                    "name": "Developer guide",
+                                    "url": "https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/developer-guide.md"
+                                }
+                            ]
                         },
                         {
                             "name": "Coding guidelines",
@@ -158,6 +176,19 @@
         {
             "name": ".Net Core repos",
             "url": "https://github.com/dotnet/core/blob/master/Documentation/core-repos.md"
-        }
+        },
+        {
+            "name": "Getting started",
+            "children": [
+                {
+                    "name": "Download",
+                    "url": "https://dotnet.microsoft.com/download"
+                },
+                {
+                    "name": "Hello World in 10 minutes",
+                    "url": "https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro"
+                }
+            ]
+        }        
     ]
 }
